@@ -55,7 +55,13 @@
             // 
             // numericUpDown1
             // 
+            this.numericUpDown1.DecimalPlaces = 1;
             this.numericUpDown1.ForeColor = System.Drawing.Color.Black;
+            this.numericUpDown1.Increment = new decimal(new int[] {
+            5,
+            0,
+            0,
+            65536});
             this.numericUpDown1.Location = new System.Drawing.Point(154, 96);
             this.numericUpDown1.Name = "numericUpDown1";
             this.numericUpDown1.Size = new System.Drawing.Size(296, 27);

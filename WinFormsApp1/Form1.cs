@@ -51,6 +51,7 @@ namespace WinFormsApp1
             {
                 if (totalper <= 0)
                     throw new Exception();
+
                 totaltip = bill * tipper / 100 / totalper;
                 totalbill = bill / totalper + totaltip;
                 
